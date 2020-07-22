@@ -1,0 +1,11 @@
+package com.deep.app.config;
+
+public class DevProfileBean implements EnvBaseConfig {
+
+	@Override
+	public void setup() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

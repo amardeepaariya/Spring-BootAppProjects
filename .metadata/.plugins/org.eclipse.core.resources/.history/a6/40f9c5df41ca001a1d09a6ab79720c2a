@@ -1,0 +1,57 @@
+2020-07-20 09:27:34 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:28:06 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:33:18 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:42:59 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:43:16 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:43:58 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:44:16.676 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:44:25.291 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:47:10.659 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:47:29.042 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:47:39.074 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:48:49.129 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:49:43.872 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:50:22.428 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:50:39.745 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:50:44.697 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:51:04.119 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:51:20.648 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+09:51:58.736 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:53:38 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:53:47 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:54:26 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:55:41 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:55:52 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-20 09:57:50 [restartedMain] ERROR c.d.app.SpringBootLoggerApplication - Message logged at ERROR levele
+2020-07-202 10:00:29 [restartedMain] ERROR o.s.boot.SpringApplication - %PARSER_ERROR[MSG]
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@696ccea - There is no conversion class registered for conversion word [MSG]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@696ccea - [MSG] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@40ee964e - There is no conversion class registered for conversion word [MSG]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@40ee964e - [MSG] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5026dd9d - There is no conversion class registered for conversion word [MSG]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5026dd9d - [MSG] is not a valid conversion word
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:162)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:208)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:74)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:59)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:115)
+	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:303)
+	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:276)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:212)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:122)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.deep.app.SpringBootLoggerApplication.main(SpringBootLoggerApplication.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)

@@ -1,0 +1,5 @@
+package com.deep.app.beans;
+
+public class ApplicationRunnerBean1 {
+
+}

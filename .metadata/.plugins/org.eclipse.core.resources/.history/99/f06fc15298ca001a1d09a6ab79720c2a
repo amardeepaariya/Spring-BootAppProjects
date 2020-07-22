@@ -1,0 +1,7 @@
+package com.deep.app.config;
+
+public class EnvBaseConfig {
+	
+	void setup();
+
+}

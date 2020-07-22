@@ -1,0 +1,11 @@
+package com.deep.app.config;
+
+public class ProdProfileBean implements EnvBaseConfig {
+
+	@Override
+	public void setup() {
+		System.out.println("Dev config is setup...");
+
+	}
+
+}

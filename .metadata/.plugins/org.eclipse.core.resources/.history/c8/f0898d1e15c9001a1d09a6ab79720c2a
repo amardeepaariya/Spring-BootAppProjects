@@ -1,0 +1,10 @@
+package com.deep.people.management.app.dao;
+
+
+import org.springframework.data.repository.Repository;
+
+import com.deep.people.management.app.entities.Person;
+
+public interface PeopleManagementDao extends Repository<Person, Integer> {
+
+	}
