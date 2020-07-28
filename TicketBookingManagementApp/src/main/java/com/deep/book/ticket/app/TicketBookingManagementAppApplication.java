@@ -8,7 +8,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 import com.deep.book.ticket.app.entities.Ticket;
 import com.deep.book.ticket.app.service.TicketBookingService;
-
+/**
+ * @author Amardeep Kumar
+ */
 @SpringBootApplication
 public class TicketBookingManagementAppApplication {
 

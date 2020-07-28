@@ -6,6 +6,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+/**
+ * @author Amardeep Kumar
+ */
+
 @Entity
 @Table(name="users1")
 public class UserInfo implements Serializable {

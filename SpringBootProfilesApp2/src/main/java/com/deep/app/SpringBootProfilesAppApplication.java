@@ -8,7 +8,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.deep.app.config.EnvBaseConfig;
-
+/**
+ * @author Amardeep Kumar
+ */
 @SpringBootApplication
 public class SpringBootProfilesAppApplication implements CommandLineRunner{
 

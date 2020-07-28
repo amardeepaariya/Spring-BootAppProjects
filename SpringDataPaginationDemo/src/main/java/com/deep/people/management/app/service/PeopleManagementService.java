@@ -8,7 +8,9 @@ import org.springframework.stereotype.Service;
 
 import com.deep.people.management.app.dao.PeopleManagementDao;
 import com.deep.people.management.app.entities.Person;
-
+/**
+ * @author Amardeep Kumar
+ */
 @Service
 public class PeopleManagementService {
 	

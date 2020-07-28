@@ -6,6 +6,9 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.deep.app.model.User;
+/**
+ * @author Amardeep Kumar
+ */
 @Service
 public class UserService {
 	private List<User> userList = new ArrayList<>();

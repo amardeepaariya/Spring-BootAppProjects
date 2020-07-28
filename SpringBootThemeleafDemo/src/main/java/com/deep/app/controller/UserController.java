@@ -19,7 +19,9 @@ import org.springframework.web.servlet.ModelAndView;
 import com.deep.app.model.User;
 import com.deep.app.service.UserService;
 
-//AMARDEEP KUMAR
+/**
+ * @author Amardeep Kumar
+ */
 
 @Controller
 @RequestMapping(value="/user")

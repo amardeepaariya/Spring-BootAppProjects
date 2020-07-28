@@ -17,7 +17,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.deep.app.model.User;
 import com.deep.app.service.UserService;
-
+/**
+ * @author Amardeep Kumar
+ */
 @Controller
 @RequestMapping(value="/user")
 public class UserController {

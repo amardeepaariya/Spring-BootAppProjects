@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.file"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.jdt.ui.java"/>
@@ -17,7 +17,6 @@
 			<item value="org.eclipse.egit.ui.internal.clone.gitclonecategory"/>
 			<item value="org.eclipse.jst.j2ee.internal"/>
 			<item value="org.eclipse.m2e"/>
-			<item value="org.eclipse.mylyn.tasks.ui.wizards.import.category"/>
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">

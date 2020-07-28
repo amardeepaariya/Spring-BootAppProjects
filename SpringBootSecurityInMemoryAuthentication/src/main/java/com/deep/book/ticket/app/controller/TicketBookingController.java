@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.deep.book.ticket.app.entities.Ticket;
 import com.deep.book.ticket.app.service.TicketBookingService;
-
+/**
+ * @author Amardeep Kumar
+ */
 @RestController
 @RequestMapping(value="/api")
 public class TicketBookingController {

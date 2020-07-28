@@ -7,6 +7,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+/**
+ * @author Amardeep Kumar
+ */
+
 @Entity
 @Table(name="topics")
 public class Topic implements Serializable { 

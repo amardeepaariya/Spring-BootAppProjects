@@ -2,7 +2,9 @@ package com.deep.app.model;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-
+/**
+ * @author Amardeep Kumar
+ */
 public class User {
 
 	@NotNull

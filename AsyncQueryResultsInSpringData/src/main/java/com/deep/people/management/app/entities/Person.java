@@ -1,5 +1,9 @@
 package com.deep.people.management.app.entities;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 import java.util.Date;
 
 import javax.persistence.Column;

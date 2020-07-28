@@ -9,6 +9,10 @@ import org.springframework.data.repository.query.Param;
 
 import com.deep.people.management.app.entities.Person;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 public interface PeopleManagementDao extends Repository<Person, Integer> {
 
 	@Query("SELECT p FROM Person p WHERE p.firstName=:firstname OR p.lastName=:lastname")

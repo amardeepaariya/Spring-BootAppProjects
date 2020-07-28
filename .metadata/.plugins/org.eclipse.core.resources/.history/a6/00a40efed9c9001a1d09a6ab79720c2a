@@ -1,3 +1,0 @@
-#logging.level.root=debug
-#logging.level.org.org.springframework.web=info
-logging.level.com.deep.com.deep.app=info

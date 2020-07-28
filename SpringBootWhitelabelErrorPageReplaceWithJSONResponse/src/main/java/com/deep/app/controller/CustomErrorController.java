@@ -16,7 +16,9 @@ import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.deep.app.model.ErrorJson;
-
+/**
+ * @author Amardeep Kumar
+ */
 @RestController
 public class CustomErrorController implements ErrorController {
 

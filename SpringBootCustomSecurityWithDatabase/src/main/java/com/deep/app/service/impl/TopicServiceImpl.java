@@ -8,6 +8,11 @@ import org.springframework.stereotype.Service;
 import com.deep.app.dao.TopicDAO;
 import com.deep.app.entities.Topic;
 import com.deep.app.service.TopicService;
+
+/**
+ * @author Amardeep Kumar
+ */
+
 @Service
 public class TopicServiceImpl implements TopicService {
 	

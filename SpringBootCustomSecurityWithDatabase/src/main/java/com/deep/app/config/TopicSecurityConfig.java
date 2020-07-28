@@ -10,6 +10,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.deep.app.service.impl.UserDetailsServiceImpl;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(securedEnabled=true)
 public class TopicSecurityConfig extends WebSecurityConfigurerAdapter {

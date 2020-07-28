@@ -6,7 +6,9 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.Repository;
 
 import com.deep.people.management.app.entities.Person;
-
+/**
+ * @author Amardeep Kumar
+ */
 public interface PeopleManagementDao extends Repository<Person, Integer> {
 	
 	@Query(value = "SELECT p FROM Person p WHERE p.lastName=?1")

@@ -18,6 +18,10 @@ import org.springframework.web.util.UriComponentsBuilder;
 import com.deep.app.entities.Topic;
 import com.deep.app.service.TopicService;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 @RestController
 @RequestMapping("/user")
 public class TopicController {

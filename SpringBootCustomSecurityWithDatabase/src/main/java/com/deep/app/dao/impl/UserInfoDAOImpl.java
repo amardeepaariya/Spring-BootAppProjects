@@ -11,6 +11,10 @@ import org.springframework.transaction.annotation.Transactional;
 import com.deep.app.dao.UserInfoDAO;
 import com.deep.app.entities.UserInfo;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 @Repository
 @Transactional
 public class UserInfoDAOImpl implements UserInfoDAO {

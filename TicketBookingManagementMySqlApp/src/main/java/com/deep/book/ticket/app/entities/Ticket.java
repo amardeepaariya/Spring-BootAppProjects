@@ -8,7 +8,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * @author Amardeep Kumar
+ */
 @Entity
 @Table(name="ticket")
 public class Ticket {

@@ -6,6 +6,10 @@ import java.util.stream.Collectors;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 @Component
 public class CommandLineRunnerBean implements CommandLineRunner {
 

@@ -1,7 +1,9 @@
 package com.deep.app.model;
 
 import java.util.Map;
-
+/**
+ * @author Amardeep Kumar
+ */
 public class ErrorJson {
 
     private Integer status;

@@ -1,8 +1,0 @@
-package com.deep.app.beans;
-
-public class Snippet {
-	public static void main(String[] args) {
-		ApplicationRunnerBean1
-	}
-}
-

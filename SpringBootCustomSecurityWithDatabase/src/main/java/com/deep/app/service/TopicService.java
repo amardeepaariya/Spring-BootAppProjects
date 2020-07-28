@@ -6,6 +6,10 @@ import org.springframework.security.access.annotation.Secured;
 
 import com.deep.app.entities.Topic;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 public interface TopicService {
 	
 	 @Secured ({"ROLE_ADMIN", "ROLE_USER"})

@@ -14,6 +14,10 @@ import org.springframework.stereotype.Service;
 import com.deep.app.dao.UserInfoDAO;
 import com.deep.app.entities.UserInfo;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 	

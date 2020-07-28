@@ -4,6 +4,10 @@ import java.util.List;
 
 import com.deep.app.entities.Topic;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 public interface TopicDAO {
 	public abstract List<Topic> getAllTopics();
 	public abstract Topic getTopicById(int topicId);

@@ -14,7 +14,9 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.DynamicUpdate;
-
+/**
+ * @author Amardeep Kumar
+ */
 @Entity
 @Table(name = "person_table")
 @DynamicUpdate

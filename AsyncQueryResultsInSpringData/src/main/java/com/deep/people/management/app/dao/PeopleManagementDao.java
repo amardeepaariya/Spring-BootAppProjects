@@ -7,6 +7,10 @@ import org.springframework.scheduling.annotation.Async;
 
 import com.deep.people.management.app.entities.Person;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 public interface PeopleManagementDao extends Repository<Person, Integer> {
 
 	@Async

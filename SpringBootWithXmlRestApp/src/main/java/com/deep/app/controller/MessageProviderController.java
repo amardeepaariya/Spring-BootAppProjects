@@ -5,7 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.deep.app.service.MessageProviderService;
-
+/**
+ * @author Amardeep Kumar
+ */
 @RestController
 public class MessageProviderController {
 

@@ -10,6 +10,10 @@ import org.springframework.transaction.annotation.Transactional;
 import com.deep.app.dao.TopicDAO;
 import com.deep.app.entities.Topic;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 @Transactional
 @Repository
 public class TopicDAOImpl implements TopicDAO {

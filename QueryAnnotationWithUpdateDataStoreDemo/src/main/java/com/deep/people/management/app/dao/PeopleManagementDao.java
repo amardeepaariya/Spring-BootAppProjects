@@ -8,6 +8,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.deep.people.management.app.entities.Person;
 
+/**
+ * @author Amardeep Kumar
+ */
+
 public interface PeopleManagementDao extends Repository<Person, Integer> {
 
 	@Transactional

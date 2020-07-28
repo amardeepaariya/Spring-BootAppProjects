@@ -13,7 +13,9 @@ import org.springframework.data.domain.Sort.Direction;
 import com.deep.people.management.app.entities.Person;
 import com.deep.people.management.app.service.PeopleManagementService;
 
-
+/**
+ * @author Amardeep Kumar
+ */
 @SpringBootApplication
 public class PeopleManagmentSpringBootDataAppApplication implements CommandLineRunner {
 
