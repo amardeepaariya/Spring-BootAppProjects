@@ -69,6 +69,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="G:\JAVA\Spring-Boot\SpringbootRedirectFromHttpToHttpsWebApp"/>
+			<item value="G:\JAVA\Spring-Boot\SpringbootRedirectFromHttpToHttpsWebApp-master"/>
 			<item value="G:\JAVA\Spring-Boot\SpringBootSecurityRestTemplate"/>
 			<item value="G:\JAVA\Spring-Boot\SpringBootSecurityInMemoryAuthentication"/>
 			<item value="G:\JAVA\SpringBootSecurityInMemoryAuthentication-master"/>
