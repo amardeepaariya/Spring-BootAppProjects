@@ -1,0 +1,4 @@
+INSERT INTO ticket(passenger_name,booking_date,source_station,dest_station,email) VALUES('Amardeep Kumar','2020/08/04','Pune','Mumbai','amardeep@gmail.com');
+INSERT INTO ticket(passenger_name,booking_date,source_station,dest_station,email) VALUES('Ruchi Kumari','2020/08/09','Chennai','Mumbai','ruchi@gmail.com');
+INSERT INTO ticket(passenger_name,booking_date,source_station,dest_station,email) VALUES('Sourab Singh','2020/08/06','Delhi','Mumbai','sk@gmail.com');
+INSERT INTO ticket(passenger_name,booking_date,source_station,dest_station,email) VALUES('Juhi Kumari','2020/08/10','Chennai','Mumbai','juhi@gmail.com');
