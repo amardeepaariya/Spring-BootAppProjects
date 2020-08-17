@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: HelloWorldSpringBoot
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: bittu
+Built-By: rafsd
 Implementation-Vendor-Id: com.deep.app
-Build-Jdk: 1.8.0_261
+Build-Jdk: 1.8.0_241
 Implementation-URL: http://projects.spring.io/spring-boot/HelloWorldSp
  ringBoot/
 Created-By: Maven Integration for Eclipse
