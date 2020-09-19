@@ -3,7 +3,7 @@ Implementation-Title: HelloWorldSpringBoot
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: rafsd
 Implementation-Vendor-Id: com.deep.app
-Build-Jdk: 1.8.0_241
+Build-Jdk: 1.8.0_261
 Implementation-URL: http://projects.spring.io/spring-boot/HelloWorldSp
  ringBoot/
 Created-By: Maven Integration for Eclipse
